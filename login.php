@@ -37,7 +37,7 @@ if($result = @$connection->query(
         
         $_SESSION['id']=$row['id'];
         $_SESSION['user'] = $row['user'];
-        $_SESSION['wood'] = $row['drewno'];
+        $_SESSION['site'] = $row['site'];
         $_SESSION['stone'] = $row['kamien'];
         $_SESSION['grain'] = $row['zboze'];
         $_SESSION['premium'] = $row['dnipremium'];
